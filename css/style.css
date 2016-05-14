@@ -1,0 +1,192 @@
+html {
+    height:100%
+}
+
+body {
+    font:15px/23px 'Raleway',sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%
+}
+
+
+
+
+.pattern {
+    background-image:url(../images/pattern.png);
+    background-repeat: repeat;
+    background-attachment:scroll;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0
+}
+
+.divider {
+    background-image:url(../images/divider.png);
+    display:block;
+    width:300px;
+    height:35px;
+    margin:10px auto
+}
+
+
+#colorize {
+    color:#f1c40f;
+    font-family:'Lato',sans-serif;
+    font-size:40px
+}
+
+
+.big-background {
+    z-index:550;
+    text-align:center;
+    height:100%;
+    min-height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.calc {
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  opacity: 0.8;
+  margin: auto;
+  font-family:'Lato',sans-serif;
+  font-size:13px;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#fff;
+  background:transparent;
+  border:2px solid #fff;
+  padding:10px 14px;
+  letter-spacing:2px;
+  text-align:center;
+  display:inline-block;
+  -webkit-transition:.4s background ease;
+  -moz-transition:.4s background ease;
+  -o-transition:.4s background ease;
+  transition:.4s background ease;
+  margin-top: 100px;
+}
+#ind {
+
+}
+.enter {
+  height: 80px;
+  width: 990px;
+  background-color: black;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Lato',sans-serif;
+  font-size:40px;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#fff;
+  background:rgba(255,255,255,0.2);
+  border:2px solid #fff;
+  cursor:pointer;
+  letter-spacing:2px;
+  text-align:center;
+  display:block;
+  -webkit-transition:.4s background ease;
+  -moz-transition:.4s background ease;
+  -o-transition:.4s background ease;
+  transition:.4s background ease;
+  text-align: center;
+}
+.list_btns_num {
+  width: 600px;
+  height: 630px;
+  display: block;
+  float: left;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.btn_num {
+    font-family:'Lato',sans-serif;
+    font-size:40px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#fff;
+    background:rgba(255,255,255,0.2);
+    border:2px solid #fff;
+    cursor:pointer;
+    letter-spacing:2px;
+    text-align:center;
+    display:block;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+    width: 160px;
+    height: 95px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 0;
+    float: left;
+}
+.btn_num:hover {
+    color:#fff;
+    background:rgba(255,255,255,0.5);
+}
+.list_btns2 {
+  width: 400px;
+  height: 630px;
+  float: right;
+  display: block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.btn2 {
+  float right;
+  font-family:'Lato',sans-serif;
+  font-size:40px;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#fff;
+  background:rgba(255,255,255,0.2);
+  border:2px solid #fff;
+  cursor:pointer;
+  letter-spacing:2px;
+  text-align:center;
+  display:inline-block;
+  -webkit-transition:.4s background ease;
+  -moz-transition:.4s background ease;
+  -o-transition:.4s background ease;
+  transition:.4s background ease;
+  width: 160px;
+  height: 95px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.btn2:hover {
+  color:#fff;
+  background:rgba(255,255,255,0.5);
+}
+.big-background-default-image {
+    background:url(../images/sunset.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    z-index:0;
+    backface-visibility:hidden
+}
